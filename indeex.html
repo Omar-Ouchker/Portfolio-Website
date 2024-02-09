@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./tok.css">
+    <title>Contact Page</title>
+</head>
+<body>
+    
+    <h3>Text Me Here:</h3>
+<br>
+
+<textarea id="freeform" name="freeform" rows="4" cols="50">
+Enter text here...
+</textarea>
+
+<script>
+function sendEmailAndNavigate() {
+  // Send email
+  window.location.href = "mailto:omarouchker7@gmail.com";
+  
+  // Navigate to the next page after a short delay (adjust delay as needed)
+  setTimeout(function(){
+    window.location.href = "./message sent.html";
+  }, 10000); // 1000 milliseconds = 1 second
+}
+</script>
+</head>
+<body>
+
+<button onclick="sendEmailAndNavigate()">Send</button>
+
+</body>
+</html>
+
+
+    
+</body>
+</html>

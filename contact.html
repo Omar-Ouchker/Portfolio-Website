@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Captcha</title>
+    
+    <!-- Linking the Font Awesome CSS file -->
+    <link rel="stylesheet" href="css/fontawesome-free-6.5.1-web/css/all.css" />
+    
+    <!-- Linking the custom stylesheet for contact form styling -->
+    <link rel="stylesheet" href="css/contact-style.css" />
+  </head>
+  <body>
+    <!-- Main login form container -->
+    <div class="login-form">
+      <!-- Form title -->
+      <div class="form-title">Member login</div>
+      
+      <!-- Username input field -->
+      <div class="form input">
+        <label for="username">Username</label>
+        <input type="text" id="user" />
+        
+        <!-- Password input field -->
+        <div class="form input">
+          <label for="Password">Password</label>
+          <input type="text" id="user" />
+          
+          <!-- Captcha section -->
+          <div class="captcha">
+            <label for="captcha-input">Enter captcha</label>
+            
+            <!-- Preview area for displaying stylized captcha characters -->
+            <div class="preview"></div>
+            
+            <!-- Captcha input field and refresh button -->
+            <div class="captcha-form">
+              <input
+                type="text"
+                id="captcha-form"
+                placeholder="Enter captcha name"
+              />
+              <button class="captcha-refresh">
+                <!-- Font Awesome icon for refresh button -->
+                <i class="fas fa-refresh"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Form actions, including the login button -->
+      <div class="form-actions">
+        <button id="login-btn">Login</button>
+      </div>
+    </div>
+    
+    <!-- Linking the JavaScript file for captcha functionality -->
+    <script src="js/captcha.js"></script>
+  </body>
+</html>

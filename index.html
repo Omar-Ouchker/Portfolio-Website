@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Meta tags for document information -->
+    <meta charset="utf-8" />
+    <meta name="description" content="Omar's Portfolio" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Omar OUCHKER" />
+
+    <!-- Title of the webpage -->
+    <title>Omar Ouchker</title>
+
+    <!-- CSS Stylesheets -->
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- Custom stylesheets -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/card.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/style-com.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+
+    <!-- Bootstrap Scripts -->
+    <!-- jQuery, Popper.js, Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento"
+      rel="stylesheet"
+    />
+
+    <!-- JS Script -->
+    <!-- Modernizr script -->
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Portfolio</a>
+
+      <!-- Navbar toggler button for mobile view -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar items -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#resume">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Loader -->
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+
+    <!-- Top Container -->
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud" />
+      <div class="title-text">
+        <h1>I'm Omar.</h1>
+        <h2>a <span class="pro">pro</span>grammer.</h2>
+      </div>
+      <img class="bottom-cloud animate" src="images/cloud.png" alt="cloud" />
+      <img class="mountain" src="images/mountain.png" alt="mountain-img" />
+    </div>
+
+    <!-- Middle Container -->
+    <div class="middle-container">
+      <!-- Card Section -->
+      <div class="card">
+        <div class="imgBx">
+          <img src="images/profilepic.png" alt="">
+        </div>
+        <div class="content">
+          <div class="details">
+            <h2>Omar Ouchker<br><span>Web Developer</span></h2>
+            <div class="data">
+              <h3>4<br><span>Posts</span></h3>
+              <h3>120<br><span>Followers</span></h3>
+              <h3>265<br><span>Following</span></h3>
+            </div>
+            <div class="actionBtn">
+              <!-- Buttons to follow and message -->
+              <button onclick="location.href = 'https://www.instagram.com/omaar.ouchker/';">Follow</button>
+              <button onclick="location.href = 'https://twitter.com/OmarOuchker1';">Message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+      <!-- About Section -->
+      <div id="about" class="profile">
+        <h2>Hello.</h2>
+        <p class="intro">
+          I'm an engineering student in Cyber Security at the Euromed University
+          of Fes. I'm passionate about web development and Security.
+        </p>
+      </div>
+      <hr />
+
+      <!-- Skills Section -->
+      <div id="skills" class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <!-- Animated coding image -->
+          <img
+            class="code-img"
+            src="https://media.giphy.com/media/WTjXuYA2y4o3UZly3W/giphy.gif"
+            alt="code-img"
+          />
+
+          <h3>Coding & Development</h3>
+          <p>
+            I started learning to code when I was 12 years old because I wanted
+            to make my own video games. Over time, I have gained a wealth of
+            experience coding games and web applications.
+          </p>
+        </div>
+        <div class="skill-row">
+          <!-- Programming image -->
+          <img
+            class="programming-img"
+            src="images/programming.png"
+            alt="programming-img"
+          />
+
+          <h3>Some of my skills</h3>
+          <!-- List of skills with colorful icons -->
+          <ul class="skills-list">
+            <li class="list-el" style="--clr: #ffdd1c">
+              <b data-text="&nbsp;&nbsp;Programming:"
+                >&nbsp;&nbsp;Programming:&nbsp;</b
+              >
+              Python,C/C++,JavaScript,VHDL,
+            </li>
+            <li class="list-el" style="--clr: #7fff00">
+              <b data-text="&nbsp;&nbsp;Databases:"
+                >&nbsp;&nbsp;Databases:&nbsp;</b
+              >
+              MySQL, Xamp.
+            </li>
+            <li class="list-el" style="--clr: #00ade1">
+              <b data-text="&nbsp;&nbsp;Environments:"
+                >&nbsp;&nbsp;Environments:&nbsp;</b
+              >
+              Visual Studio Code, &nbsp;&nbsp;PyCharm...
+            </li>
+            <li class="list-el" style="--clr: #00ffff">
+              <b data-text="&nbsp;&nbsp;Webprogramming:"
+                >&nbsp;&nbsp;Webprogramming:&nbsp;</b
+              >HTML, JavaScript, &nbsp;&nbsp;CSS, TailWind...,PHP,Linux(OS)
+            </li>
+            <li class="list-el" style="--clr: #00dc82">
+              <b data-text="&nbsp;&nbsp;Projects:"
+                >&nbsp;&nbsp;Projects:&nbsp;</b
+              >Poubelle automatique(Arduino),Jeux(Console,Graphique),Site web E-COMMERCE,Application Mobile,Analyse De Données,
+            </li>
+            <li class="list-el" style="--clr: #ff6493">
+              <b data-text="&nbsp;&nbsp;Tools:">&nbsp;&nbsp;Tools:&nbsp;</b>
+              Adobe rush, Canva, PowerPoint, Apache, Github.
+            </li>
+            <li class="list-el" style="--clr: #dc00d4">
+              <b data-text="&nbsp;&nbsp;Hobbies:">&nbsp;&nbsp;Hobbies:&nbsp;</b>
+              Rap,Billard Anglais,FootBall,Ping Pong,.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+
+      <!-- Contact Section -->
+      <div id="contact" class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you love coding as much as I do.</h3>
+        <p class="contact-message">
+          Love coding as much as I do? Let's talk and code together! Contact me
+          here!
+        </p>
+        <!-- Button to navigate to the contact page -->
+        <a class="btn" href="./contact.html">CONTACT ME</a>
+        <!-- Email contact option (commented out) -->
+        <!-- <a class="btn" href="mailto:omarouchker7@outlook.com">CONTACT ME</a> -->
+      </div>
+    </div>
+
+    <!-- Bottom Container -->
+    <div class="bottom-container">
+      <!-- Footer links to social media profiles -->
+      <a
+        class="footer-link"
+        href="https://www.linkedin.com/in/omar-ouchker/"
+        >LinkedIn</a
+      >
+      <a class="footer-link" href="https://twitter.com/OmarOuchker1">Twitter</a>
+      <a class="footer-link" href="https://www.instagram.com/omaar.ouchker/"
+        >Instagram</a
+      >
+      <!-- Copyright notice -->
+      <p class="copyright">© 2023 Omar Ouchker.</p>
+    </div>
+
+    <!-- External scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+      // Fallback to local jQuery if CDN fails
+      window.jQuery ||
+        document.write(
+          '<script src="js/vendor/jquery-1.9.1.min.js"><\/script>'
+        );
+    </script>
+    <!-- Main JavaScript file -->
+    <script src="js/main.js"></script>
+    <!-- Additional scripts -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+  </body>
+</html>
